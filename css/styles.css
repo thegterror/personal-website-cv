@@ -1,0 +1,422 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+	background-color: #020205;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	padding: 0.5% 15%;
+	font-family: 'Cardo', serif;
+	font-weight: 700;
+	font-size: 1.5rem;
+	color: #fff;
+}
+
+/* Title */
+
+#title {
+	background-image: url(../img/mainimg1.jpg);
+	min-height: 40vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.landing {
+	font-family: 'Cardo', serif;
+	text-align: left;
+	letter-spacing: 2px;
+	position: relative;
+	margin-top: 100px;
+}
+
+.main-left {
+	font-family: 'Domine', serif;
+	color:#0047AB	;
+	font-weight: 600;
+	font-size: 1.5rem;
+}
+
+.main-heading {
+	color: #0047AB;
+	font-weight: 700;
+	font-size: 3.5rem;
+}
+
+.main-paragraph {
+	font-weight: 400;
+	font-family: 'Domine', serif;
+	letter-spacing: 0;
+	font-style: italic;
+	font-size: 1.2rem;
+	color: #fff;
+	line-height: 2.1rem;
+	width: 40%;
+	margin-bottom: 100px;
+}
+
+/* Navbar */
+.nav-link {
+	font-size: 1.2rem;
+	font-weight: 500;
+	margin: 0 18px;
+}
+
+.navbar-brand {
+	font-family: 'Cardo', serif;
+	font-size: 2.5rem;
+	font-weight: 700;
+}
+
+
+
+.performance {
+	color: #f2f4f7;
+	-webkit-text-fill-color: #e43a19; /* Will override color (regardless of order) */
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: #f2f4f7;
+}
+
+/* Features */
+
+#features {
+	background-color: #f2f4f7;
+}
+
+.my-flex-container {
+	position: relative;
+	top: 40px;
+}
+
+.student {
+	margin: 100px;
+	text-align: center;
+	position: relative;
+}
+
+.comp-sci {
+	padding-bottom: 100px;
+}
+
+.gabi-picture {
+	position: relative;
+	border-radius: 100%;
+	border: 4px solid #89CFF0;
+	margin-bottom: 50px;
+}
+
+.container {
+	margin: 0;
+	position: relative;
+	padding: 3% 5%;
+	height: 50vh;
+}
+
+.container-sm {
+	margin: 0;
+	position: relative;
+}
+
+.student-facultate-heading {
+	font-family: 'Cardo', serif;
+	font-weight: 700;
+	font-size: 2.05rem;
+}
+
+.student-facultate-paragraph {
+	font-family: 'Domine', serif;
+	color: #40514e;
+	line-height: 2;
+	/* font-size: 1.5rem; */
+	/* font-size: 1rem; */
+}
+
+.fac {
+	color: #89CFF0;
+	-webkit-text-fill-color: #89CFF0; /* Will override color (regardless of order) */
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: #f2f4f7;
+}
+
+.student-facultate-1 {
+	padding: 50px;
+	/* margin-left: 50px; */
+	text-align: center;
+	position: relative;
+}
+
+.personalize-time {
+	text-align: center;
+	position: relative;
+}
+
+.student-facultate-2 {
+	position: relative;
+}
+
+.student-container {
+	position: relative;
+	text-align: center;
+}
+
+.hit {
+	top: 25px;
+	position: relative;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+/* Prices */
+
+#prices {
+	/* height: 40vh; */
+	line-height: 1.8;
+	font-family: 'Domine', serif;
+}
+
+.prices {
+	background-color: #f2f4f7;
+	position: relative;
+	/* display: flex; */
+}
+
+.card-element-container {
+	list-style: none;
+}
+
+.card-basic,
+.card-standard,
+.card-premium {
+	margin: 0 2rem 1rem 0;
+	/* padding: 0 0 0.5rem 0; */
+	width: 15rem;
+	background: #fff;
+	color: #444;
+	text-align: center;
+	border-radius: 1rem;
+	box-shadow: 0.5rem 0.5rem 1rem rgba(51, 51, 51, 0.2);
+	overflow: hidden;
+	transition: all 0.1ms ease-in-out;
+}
+.card-basic:hover,
+.card-standard:hover,
+.card-premium:hover {
+	transform: scale(1.02);
+}
+.card-header {
+	margin: 0;
+	height: 5rem;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 0.1rem;
+	padding: 1rem 0;
+	color: #fff;
+	clip-path: polygon(0 0, 100% 0%, 100% 85%, 0% 100%);
+}
+
+.header-basic,
+.btn-basic {
+	background: linear-gradient(135deg, rgb(0, 119, 238), #06c766);
+}
+
+.header-standard,
+.btn-standard {
+	background: linear-gradient(135deg, #b202c9, #cf087c);
+}
+
+.header-premium,
+.btn-premium {
+	background: linear-gradient(135deg, #eea300, #ee5700);
+}
+
+.price-header {
+	font-size: 2rem;
+	color: #333;
+}
+/* .price-title::before {
+	content: '';
+	height: 200px;
+	width: 280px;
+	position: absolute;
+	bottom: 175px;
+	left: -46px;
+	background: #fff;
+	border-radius: 80px;
+	transform: rotate(-85deg);
+} */
+
+/* .price-title::after {
+	content: '';
+	height: 200px;
+	width: 280px;
+	position: absolute;
+	top: 150px;
+	right: -70px;
+	bottom: auto;
+	left: auto;
+	background: #fff;
+	border-radius: 100px;
+	transform: rotate(-40deg);
+} */
+
+/* .price {
+	width: 120px;
+	height: 120px;
+	position: absolute;
+	top: 100px;
+	left: 50%;
+	background: #fff;
+	color: #404040;
+	display: inline-block;
+	padding: 30px 0;
+	font-size: 30px;
+	line-height: 50px;
+	font-weight: 600;
+	transform: translate(-50%);
+	transition: all 0.3s ease 0s;
+	box-shadow: 0 0 0 8px rgba(0, 0, 0, 0.3);
+} */
+
+/* .header {
+	background: #e43a19;
+}
+.bi {
+	color: #e43a19;
+}
+
+.price {
+	color: #fff;
+	font-size: 3rem;
+	font-weight: 800;
+	padding-top: -80% !important;
+} */
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+/* .flip-card {
+	background-color: transparent;
+	width: auto;
+	height: auto;
+	perspective: 1000px; 
+} */
+
+/* This container is needed to position the front and back side */
+/* .flip-card-inner {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	transition: transform 0.8s;
+	transform-style: preserve-3d;
+} */
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+/* .flip-card:hover .flip-card-inner {
+	transform: rotateY(180deg);
+} */
+
+/* Position the front and back side */
+/* .flip-card-front,
+.flip-card-back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-webkit-backface-visibility: hidden; 
+	backface-visibility: hidden;
+} */
+
+/* Style the front side (fallback if image is missing) */
+/* .flip-card-front {
+	background-color: #e43a19;
+	color: white;
+	height: auto;
+	padding: 50px 0px;
+} */
+
+/* Style the back side */
+/* .flip-card-back {
+	background-color: white;
+	color: black;
+	transform: rotateY(180deg);
+	padding: 50px 0px;
+} */
+
+/* Contact */
+
+#contact {
+	background-color: #f2f4f7;
+}
+
+.contact {
+	position: relative;
+	text-align: center;
+}
+
+/* .map {
+	bottom: 30px;
+	position: relative;
+	width: 70%;
+	height: 40vh;
+} */
+
+.contact-heading {
+	padding: 0.5% 15%;
+	font-family: 'Cardo', serif;
+	font-weight: 700;
+	font-size: 3.5rem;
+}
+
+.contact-paragraph {
+	font-family: 'Domine', serif;
+	color: #40514e;
+	line-height: 2;
+	font-size: 1.5rem;
+}
+
+.btn {
+	margin: 10px;
+}
+/* Carousel */
+/* .carousel-item {
+	height: 70vh;
+	min-height: 300px;
+	background: no-repeat scroll center scroll;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.carousel-item::before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: #000;
+	opacity: 0.7;
+}
+
+.carousel-caption {
+	bottom: 180px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.carousel-caption h5 {
+	font-size: 100px;
+	font-weight: 700;
+	font-family: 'Cardo', serif;
+}
+
+.carousel-caption p {
+	font-size: 1.5rem;
+	top: 2rem;
+	font-family: 'Domine', serif;
+} */
